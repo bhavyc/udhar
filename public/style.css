@@ -406,3 +406,77 @@ img {
     font-size: 0.8rem;
   }
 }
+.footer {
+  background-color: #ffffff;
+  padding: 3rem 0 1rem;
+  border-top: 1px solid #eee;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-about h4,
+.footer-links h4,
+.footer-contact h4 {
+  margin-bottom: 0.8rem;
+  color: var(--green);
+  font-size: 1.1rem;
+}
+
+.footer-about p,
+.footer-contact p,
+.footer-contact a {
+  line-height: 1.6;
+  color: #555;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+  transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--green);
+}
+
+.footer-contact .socials {
+  margin-top: 0.8rem;
+}
+
+.footer-contact .socials a {
+  margin-right: 0.5rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.footer-contact .socials img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-contact .socials a:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+}
